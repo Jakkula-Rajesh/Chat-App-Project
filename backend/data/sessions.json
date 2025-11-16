@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sess_sample_1",
+    "title": "Sales summary (sample)",
+    "createdAt": "2025-11-16T10:30:00.000Z",
+    "messages": [
+      {
+        "id": "msg_1",
+        "role": "assistant",
+        "text": "Hi! Ask me anything. I can return structured tabular mock data.",
+        "structured": null,
+        "createdAt": "2025-11-16T10:30:10.000Z"
+      },
+      {
+        "id": "msg_2",
+        "role": "user",
+        "text": "Show sales by region for Q3",
+        "structured": null,
+        "createdAt": "2025-11-16T10:32:00.000Z"
+      },
+      {
+        "id": "msg_3",
+        "role": "assistant",
+        "text": "Here is a sample sales table for Q3.",
+        "structured": {
+          "columns": ["Region", "Sales", "Growth%"],
+          "rows": [
+            ["North", 23400, 12.5],
+            ["South", 18750, 9.3],
+            ["East", 15220, 7.1],
+            ["West", 19800, 10.0]
+          ]
+        },
+        "createdAt": "2025-11-16T10:32:10.000Z"
+      }
+    ]
+  },
+  {
+    "id": "sess_sample_2",
+    "title": "Quick stats (sample)",
+    "createdAt": "2025-11-16T10:40:00.000Z",
+    "messages": [
+      {
+        "id": "msg_4",
+        "role": "assistant",
+        "text": "Start a new chat and ask me anything.",
+        "structured": null,
+        "createdAt": "2025-11-16T10:40:10.000Z"
+      }
+    ]
+  }
+]
